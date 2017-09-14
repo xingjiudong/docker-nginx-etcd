@@ -13,4 +13,4 @@ etcdctl set /nginx-config/proxy00/owncloud-proxy/proxy_pass owncloud-proxy
 - ETCD_CLIENT_IP  (ETCD node IP}
 
 # docker-nginx-etcd
-- docker run --name=some-name -p 80:80 -e ETCD-CLIENT-IP=192.168.0.1 -d xingjiudong/nginx-etcd
+- docker run --name=some-name -p 80:80 -e ETCD-CLIENT-IP=192.168.0.1 -d xingjiudong/nginx-etcd:proxy00

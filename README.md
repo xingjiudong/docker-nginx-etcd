@@ -24,7 +24,6 @@
 - etcdctl mkdir /nginx-config/project00/jenkins.example.com:80/2/properties
 - etcdctl set /nginx-config/project00/jenkins.example.com:80/2/properties/root /usr/share/nginx/html
 - etcdctl set /nginx-config/project00/jenkins.example.com:80/2/properties/index index.html
-
 ## Create docker container
 #Add environment variable
 
